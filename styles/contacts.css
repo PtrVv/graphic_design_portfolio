@@ -1,0 +1,24 @@
+.contact-section {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 3em;
+    padding-bottom: 23.45em;
+  }
+
+  .contact-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-column label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .contact-column span {
+    font-size: 1.3rem;
+    color: #444444;
+  }
