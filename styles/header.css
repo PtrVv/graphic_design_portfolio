@@ -5,13 +5,15 @@ h3 {
 }
 
 header {
-    display: flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #F3F3F2;
     padding: 70px;
 }
 
 .logo-name {
-    text-align: center;
+    margin-bottom: 1.5em;
 }
 
 nav ul {
@@ -19,12 +21,11 @@ nav ul {
     gap: 2em;
     justify-content: center;
     margin-top: 2em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-nav ul li a,
-nav ul li {
-    display: block;
-}
 
 nav ul li a {
     text-decoration: none;

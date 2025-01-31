@@ -8,11 +8,16 @@ html {
     font-family: 'Enriqueta';
 }
 
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
-    position: relative;
-    bottom: 0;
+    position: relataive;
     text-align: center;
+    bottom: 0;
     padding: 1em;
     margin-top: 8em;
 }
-
